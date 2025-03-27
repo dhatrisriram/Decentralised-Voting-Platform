@@ -1,4 +1,4 @@
-# Decentralized Tokenized Voting Platform
+# Centralized Tokenized Voting Platform
 
 ## Overview
 
@@ -37,4 +37,37 @@ Simply open `index.html` in a browser.
 - **Vote Casting** - Users receive voting tokens and cast their votes securely.  
 - **Real-time Results** - View election results instantly.  
 - **Verification & Transparency** - Ensures the votes are immutable and verifiable.  
+
+## Future Work: Blockchain Integration for Decentralization
+
+To fully decentralize the voting platform and enhance security, transparency, and tamper-proofing, blockchain can be integrated as follows:
+
+### 1. **Use of Blockchain for Secure Vote Storage**
+   - Replace local storage with a **public or private blockchain** (e.g., **Ethereum, Polygon, or Hyperledger**).
+   - Each vote is recorded as a **transaction** on the blockchain, ensuring immutability.
+
+### 2. **Smart Contracts for Election Management**
+   - Develop **smart contracts** in **Solidity** to automate the voting process.
+   - The contract should:
+     - Validate voter eligibility.
+     - Allow voting only once per user.
+     - Automatically count votes and display results.
+     - Ensure the election ends at a predefined time.
+
+### 3. **Token-Based Voting Mechanism**
+   - Implement **ERC-20 or ERC-721 tokens** for vote casting.
+   - Users receive **voting tokens** that they can use to submit votes via blockchain transactions.
+
+### 4. **Decentralized Authentication & Identity Verification**
+   - Use **Decentralized Identity (DID)** solutions like **Ethereum Name Service (ENS), uPort, or Sovrin** to verify voters.
+   - This ensures voter privacy while preventing double voting.
+
+### 5. **Web3 Integration for User Interaction**
+   - Replace traditional authentication with **Web3 wallets** like **MetaMask, WalletConnect, or Coinbase Wallet**.
+   - Users sign transactions with their wallet to vote securely on the blockchain.
+
+### 6. **InterPlanetary File System (IPFS) for Election Data Storage**
+   - Store election metadata and results on **IPFS** instead of centralized databases.
+   - This prevents tampering and ensures decentralized accessibility.
+
 
