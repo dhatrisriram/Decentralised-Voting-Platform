@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Soft gradient background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color for better readability */
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  
+  .head{
+    color: white;
+    font-size: 5em;
+  }
+
+.dashboard {
+    max-width: 900px; /* Adjust the maximum width */
+    margin: 40px auto; /* Center the dashboard with margin */
+    padding: 30px; /* Padding for spacing inside the dashboard */
+    background: #ffffff; /* White background for the dashboard */
+    color: #333; /* Dark text color for better readability */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Softer shadow */
+    text-align: center;
+    border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+
+h1 {
+    margin-bottom: 30px; /* Margin bottom for spacing */
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #042a52; /* Heading color matching the background gradient */
+}
+
+.info p {
+    font-size: 20px; /* Font size for information text */
+    margin: 15px 0; /* Margin for spacing between paragraphs */
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Ensure footer content is stacked vertically */
+    align-items: center;
+  }
+  
+  footer .social_icon,
+  footer .menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0; /* Adjusted margin */
+    display: flex;
+  }
+  
+  footer .social_icon li,
+  footer .menu li {
+    margin: 0 10px;
+  }
+  
+  footer .social_icon a,
+  footer .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  footer .social_icon a:hover,
+  footer .menu a:hover {
+    opacity: 0.8;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0 0; /* Adjusted margin */
+  }

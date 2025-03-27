@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Dashboard</title>
+    <link rel="stylesheet" href="dispres.css">
+</head>
+<body>
+    <header>
+        <h1 class="head">Onion</h1>
+    </header>
+    <h1>RESULTS</h1>
+    <div class="dashboard">
+        <div class="main-content">
+            <div class="winner-section">
+                <p><strong>Winner:</strong> <span id="winner-name">John Doe</span></p>
+                <div class="winner-photo">
+                    <img id="winner-photo" src="winner.jpg" alt="Winner Photo">
+                </div>
+            </div>
+            <div class="info">
+                <p><strong>Total Number of Voters:</strong> <span id="total-voters">100</span></p>
+                <p><strong>Voters Who Actually Voted:</strong> <span id="voted-count">70</span></p>
+                <p><strong>Ranking of Candidates:</strong></p>
+                <ul id="ranking">
+                    <!-- List of candidates will be dynamically inserted here -->
+                </ul>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="votesChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dispres.js"></script>
+    <footer>
+        <ul class="social_icon">
+            <li><a><ion-icon name="mail-outline"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>&copy; 2024 Hackathon Team. All rights reserved.</p>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </footer>
+</body>
+</html>
